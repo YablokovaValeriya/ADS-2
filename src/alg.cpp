@@ -48,6 +48,7 @@ double cosn(double x, uint16_t count) {
   uint64_t b = 1;
   while (b <= count) {
     a += pown(-1, b - 1) * pown(x, (2 * b) - 2) / fact((2 * b) -2);
+    b += 1;
   }
   return a;
 }
