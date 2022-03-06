@@ -38,9 +38,9 @@ double expn(double x, uint16_t count) {
 double sinn(double x, uint16_t count) {
   double a = 0;
   for (uint16_t b = 1; b <= count; b++) {
-    a += pown(-1, b - 1) * (pown (x, (2 * b)-1) / fact((2 * b) - 1));
+    a += pown(-1, b - 1) * (pown(x, (2 * b)-1) / fact((2 * b) - 1));
   }
-  return a
+  return a;
 }
 
 double cosn(double x, uint16_t count) {
