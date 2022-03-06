@@ -17,7 +17,7 @@ uint64_t fact(uint16_t n) {
     k = k * n;
     n--;
   }
-  return n;
+  return k;
 }
 
 double calcItem(double x, uint16_t n) {
