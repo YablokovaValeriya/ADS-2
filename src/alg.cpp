@@ -5,7 +5,7 @@
 
 double pown(double value, uint16_t n) {
   double k = 1;
-  for (int i = 1; i <= k; i++) {
+  for (int i = 1; i <= n; i++) {
     k = k * value;
   }
   return k;
